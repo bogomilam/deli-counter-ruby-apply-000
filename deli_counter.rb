@@ -34,7 +34,7 @@ def now_serving(current_line)
     current_line.shift()
     puts("Currently serving ", served_customer)
   end
-  
+  served_customer
   return current_line
 end
 
