@@ -32,7 +32,7 @@ def now_serving(current_line)
   else 
     served_customer = current_line[0]
     current_line.shift()
-    puts(print("Currently serving ", served_customer))
+    puts("Currently serving ", served_customer)
   end
   
   return current_line
